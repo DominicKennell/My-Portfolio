@@ -24,6 +24,7 @@ p {
   list-style: none;
   display: flex;
   background-color: white;
+  position: relative;
 
 }
 
@@ -61,6 +62,7 @@ img{
 }
 
 .hero-banner{
+  position: relative;
   background-color: white;
   box-shadow: 0 2px 4px 0 rgba(0,0,0,.2);
   margin-bottom: 20px;
@@ -69,6 +71,7 @@ img{
 }
 
 #about{
+  position: relative;
   text-align: center;
   background-color: white;
   box-shadow: 0 2px 4px 0 rgba(0,0,0,.2);
@@ -87,13 +90,16 @@ img{
   margin-left: 50px;
 }
 
+
 .portfolio-work-example-1 img{
+  position: relative;
   text-align: center;
   height: 500px;
   width: 500px;
 }
 
 .portfolio-work-example{
+  position: relative;
   text-align: center;
   display: inline-block;
   padding: 50px;
@@ -109,6 +115,7 @@ img{
 }
 
 .page-section-contact{
+  position: relative;
   background-color: white;
   box-shadow: 0 2px 4px 0 rgba(0,0,0,.2);
   text-align: center;
