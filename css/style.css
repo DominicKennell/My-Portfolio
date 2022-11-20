@@ -7,6 +7,8 @@ body {
   margin: 0;
   padding: 0;
   line-height: 1.5;
+  background-color: aliceblue;
+  text-align: center;
 }
 
 h1,
@@ -22,3 +24,28 @@ p {
   margin: 0;
 }
 
+#hero-banner{
+  width: 100%;
+  height: 75px;
+}
+
+#dominickennell{
+  width: fit-content;
+  height: fit-content;
+}
+
+img{
+  width: 200px;
+  height: 200px;
+}
+
+.portfolio-work-example{
+  display: inline-block;
+}
+
+.contact-list-item{
+  margin: 0;
+  display: inline-block;
+  padding-left: 50px;
+  padding-right: 50px;
+}
