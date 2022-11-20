@@ -7,7 +7,7 @@ body {
   margin: 0;
   padding: 0;
   line-height: 1.5;
-  background-color: aliceblue;
+  background-color: lightgreen;
 }
 
 h1,
@@ -47,17 +47,33 @@ p {
 }
 
 .items a:hover{
-  color: white;
+  color: green;
 }
 
 .shadow{
   position: relative;
-  box-shadow: 0 1px 4px rgba(0, 0, 0, 0.3), 0, 0, 48px rgba(0, 0, 0, 0.1) inset;
+  box-shadow: 0 2px 4px 0 rgba(0,0,0,0.2);
 }
 
 img{
   width: 200px;
   height: 200px;
+}
+
+.hero-banner{
+  background-color: white;
+  box-shadow: 0 2px 4px 0 rgba(0,0,0,.2);
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+.page-wrapper{
+  background-color: white;
+  text-align: center;
+}
+
+.page-wrapper li{
+  list-style: none;
 }
 
 .portfolio-work-example{
@@ -71,4 +87,9 @@ img{
   display: inline-block;
   padding-left: 100px;
   padding-right: 100px;
+  text-decoration: none;
+}
+
+footer{
+  text-align: center;
 }
