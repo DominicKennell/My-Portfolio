@@ -64,22 +64,40 @@ img{
   background-color: white;
   box-shadow: 0 2px 4px 0 rgba(0,0,0,.2);
   margin-bottom: 20px;
+  padding: 25px;
   text-align: center;
 }
 
-.page-wrapper{
+.page-section{
+  text-align: center;
   background-color: white;
+  box-shadow: 0 2px 4px 0 rgba(0,0,0,.2);
+  margin-bottom: 50px;
+  padding: 25px;
+
+}
+#about li{
+  list-style: none;
+
+}
+#work{
   text-align: center;
+  display: inline-block;
+  padding: 50px;
+  margin-left: 50px;
 }
 
-.page-wrapper li{
-  list-style: none;
+.portfolio-work-example-1 img{
+  text-align: center;
+  height: 500px;
+  width: 500px;
 }
 
 .portfolio-work-example{
   text-align: center;
   display: inline-block;
   padding: 50px;
+  margin-left: 50px;
 }
 
 .contact-list-item{
@@ -87,8 +105,16 @@ img{
   display: inline-block;
   padding-left: 100px;
   padding-right: 100px;
-  text-decoration: none;
+  margin-bottom: 25px;
 }
+
+.page-section-contact{
+  background-color: white;
+  box-shadow: 0 2px 4px 0 rgba(0,0,0,.2);
+  text-align: center;
+  padding: 25px;
+}
+
 
 footer{
   text-align: center;
