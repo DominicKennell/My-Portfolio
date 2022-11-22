@@ -1,4 +1,4 @@
-#My Portfolio
+My Portfolio
 
 I was instructed by the bootcamp to create a portfolio for my work as a way to showcase my abilities to future clients. 
 
